@@ -16,9 +16,9 @@ spec:
       creationTimestamp: null
       labels:
         app: flaskdemo
-    annotations:
-      service.beta.kubernetes.io/aws-load-balancer-type: external
-      service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing       
+      annotations:
+        service.beta.kubernetes.io/aws-load-balancer-type: external
+        service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing       
     spec:
       containers:
       - image: ayush07/httpd:v0.1.2
